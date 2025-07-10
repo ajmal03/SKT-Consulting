@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKT Consulting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        .logo { max-width: 140px; height: auto; }
+        .icon-blue { font-size: 2.5rem; color: #00529B; }
+        .testimonial-img { max-width: 220px; }
+        @media (max-width: 767.98px) {
+            .hero-section h1 { font-size: 2rem; }
+            .hero-section .lead { font-size: 1rem; }
+            .offer-section .card { padding: 1.5rem 1rem; }
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+    </style>
+</head>
+<body>
+
+   
+   <header class="bg-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="#"><img src="images/logo.png" alt="SKT Consulting Logo" class="logo"></a>
+            <nav class="d-none d-lg-block">
+                <a href="index.html" class="text-dark mx-3 text-decoration-none">Home</a>
+                <a href="about.html" class="text-dark mx-3 text-decoration-none">About</a>
+                <a href="services.html" class="text-dark mx-3 text-decoration-none">Services</a>
+                            <div class="dropdown d-inline">
+                                <a href="#" class="text-dark mx-3 text-decoration-none dropdown-toggle" data-bs-toggle="dropdown">Blogs</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="Blog.html">Blogs</a></li>
+                                    <li><a class="dropdown-item" href="Resources.html">Resources</a></li>
+                                    <li><a class="dropdown-item" href="client.html">Clients</a></li>
+                                </ul>
+                            </div>
+            </nav>
+            <a href="contact.html" class="btn btn-primary btn-contact d-none d-lg-block">Contact us</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <!-- Mobile Nav -->
+        <div class="container">
+            <div class="collapse d-lg-none" id="navbarNav">
+                <nav class="mt-3">
+                    <a href="index.html" class="d-block text-dark py-2 text-decoration-none">Home</a>
+                    <a href="about.html" class="d-block text-dark py-2 text-decoration-none">About</a>
+                    <a href="services.html" class="d-block text-dark py-2 text-decoration-none">Services</a>
+                                    <div class="dropdown">
+                                        <a href="#" class="d-block text-dark py-2 text-decoration-none dropdown-toggle" data-bs-toggle="dropdown">Blogs</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="Blog.html">Blogs</a></li>
+                                            <li><a class="dropdown-item" href="Resources.html">Resources</a></li>
+                                            <li><a class="dropdown-item" href="client.html">Clients</a></li>
+                                        </ul>
+                                    </div>
+                    <a href="contact.html" class="btn btn-primary w-100 mt-2">Contact us</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+	 <section class="text-center py-3">
+       <h1 class="h3 mb-0 my-services-banner text-white mx-auto" style="background-color: #00529B; padding: 8px; width: 100px; border-radius: 10px;">Blogs</h1>
+   </section>
+
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0">
+                    <h2 class="section-subtitle-left">The Elephant in the Office</h2>
+                    <p class="text-primary fw-bold mb-3">Unfiltered truths about leadership, culture, and the corporate circus.</p>
+                    <p class="text-muted-dark blog-intro-text">Let's be real: most corporate advice is either sugar-coated, recycled, or straight-up batata. The blog is none of that. Here, I write about what leaders don't say out loud, what teams pretend not to notice, and what companies quietly sweep under the carpet until it eats them. If you're ready to face the elephant in your office, you're in the right place.</p>
+                </div>
+                <div class="col-lg-5 text-center">
+                    <img src="images/Maszxck group.png" alt="365 Elephants in the Office Book Cover" class="img-fluid book-cover shadow" style="border-radius: 20px;">
+                    <p class="mt-3 text-muted-dark fst-italic">"Soon, in bookstores, everywhere!"</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light-gray">
+        <div class="container">
+            <h3 class="section-subtitle-left">Featured Categories</h3>
+            <ul class="list-unstyled blog-category-list">
+                <li><strong class="text-primary">Leadership Unfiltered</strong> - Thoughts on power, ego, humility, and the messy art of leading people.</li>
+                <li><strong class="text-primary">Corporate Culture and Clarity</strong> - How companies build (or destroy) trust, purpose, and results.</li>
+                <li><strong class="text-primary">Lessons from the Field</strong> - Anecdotes, stories, and client encounters (anonymized but real).</li>
+                <li><strong class="text-primary">Retirement Reflections</strong> - What stepping away taught me about the game I played for decades.</li>
+                <li><strong class="text-primary">Bold Ideas</strong> - Frameworks, rants, or calls to action that challenge convention.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="py-5">
+        <div class="container">
+            <h3 class="section-subtitle-left">Sample <span style="color:#00529B;">Blog Titles</span></h3>
+
+            <div class="mb-4">
+                <h4 class="blog-sample-title">"Yesterday's Hero, Today's Zero"</h4>
+                <p  style="color:#00529B;">Why past performance is no guarantee of future relevance.</p>
+            </div>
+
+            <div class="mb-4">
+                <h4 class="blog-sample-title">"Batata KPIs and Other Corporate Crimes"</h4>
+                <p  style="color:#00529B;">When measurement becomes theatre.</p>
+            </div>
+
+            <div class="mb-4">
+                <h4 class="blog-sample-title">"The Meeting That Should Have Been an Email"</h4>
+                <p  style="color:#00529B;">And other productivity sins you're still committing.</p>
+            </div>
+
+            <div class="mb-4">
+                <h4 class="blog-sample-title">"Hello Darkness, My Old Friend"</h4>
+                <p  style="color:#00529B;">On retirement, legacy, and the myths we tell ourselves.</p>
+            </div>
+
+            <div class="mb-4">
+                <h4 class="blog-sample-title">"What CEOs Say vs. What They Mean"</h4>
+                <p style="color:#00529B;">A decoding guide for the rest of us.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-5 text-center newsletter-cta">
+        <div class="container">
+            <h2 class="section-subtitle-center mb-3">Want a weekly elephant in your inbox?</h2>
+            <p class="lead text-muted-dark mb-4">Connect to get my latest reflections, frameworks, and fire-starters.</p>
+            <a href="#" class="btn btn-primary btn-lg">Contact me</a>
+        </div>
+    </section>
+    
+   
+
+    
+    <footer class="py-1 " style="background-color: #00529B;">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <p class="mb-2 mb-md-0" style="color: #fff;">&copy; 2025 SKT Consulting. All rights reserved.</p>
+            <div>
+                <a href="#" class="mx-2" style="color: #fff;"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="mx-2" style="color: #fff;"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="mx-2" style="color: #fff;"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+<style>
+
+
+
+
+/* Custom Fonts (if specific fonts are desired beyond system defaults) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --bs-primary-rgb: 13, 110, 253; /* Default Bootstrap Blue - adjust if needed */
+    --bs-primary: #00529B;
+}
+
+
+.my-services-banner {
+    background-color: var(--bs-primary);
+    color: #fff;
+}
+
+/* Section Subtitles */
+.section-subtitle-left {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 1.5rem;
+    text-align: left; /* Default alignment */
+}
+
+.section-subtitle-center {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+/* Text Colors */
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.text-muted-dark {
+    color: var(--bs-text-muted-dark) !important;
+}
+
+/* Blog Intro Text (The Elephant in the Office) */
+.blog-intro-text {
+    font-size: 1.15rem;
+    line-height: 1.8;
+}
+
+/* Book Cover Image */
+.book-cover {
+    max-width: 250px; /* Adjust based on desired size */
+    height: auto;
+    display: block; /* Ensures centering with margin-left/right auto if needed */
+    margin: 0 auto;
+    border: 1px solid #dee2e6;
+}
+
+/* Featured Categories List */
+.blog-category-list li {
+    font-size: 1.05rem;
+    margin-bottom: 0.75rem;
+    color: #495057;
+}
+
+.blog-category-list li strong {
+    color: #212529; /* Darker for the bold part */
+}
+
+/* Sample Blog Titles */
+.blog-sample-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--bs-text-link); /* Blue for the titles as in image */
+}
+
+/* Newsletter CTA Section */
+.newsletter-cta {
+    background-color: #fff; /* White background for this section */
+    /* border-top: 1px solid #dee2e6; */
+    /* border-bottom: 1px solid #dee2e6; */
+}
+
+.newsletter-cta .section-subtitle-center {
+    color: #212529; /* Dark text for heading */
+}
+
+.newsletter-cta .lead, .newsletter-cta .text-muted-dark {
+    color: var(--bs-text-muted-dark) !important;
+}
+
+.newsletter-cta .btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+    font-weight: bold;
+    padding: 0.75rem 2rem;
+}
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) { /* Medium devices and down */
+    .section-subtitle-left, .section-subtitle-center {
+        font-size: 1.8rem;
+        text-align: center; /* Center align headings on smaller screens */
+    }
+    .blog-intro-text {
+        font-size: 1rem;
+    }
+    .book-cover {
+        max-width: 200px; /* Smaller book cover on tablets */
+    }
+    .blog-sample-title {
+        font-size: 1.3rem;
+    }
+  
+}
+
+@media (max-width: 767.98px) { /* Small devices and down */
+    .section-subtitle-left, .section-subtitle-center {
+        font-size: 1.6rem;
+    }
+    .blog-intro-text {
+        font-size: 0.95rem;
+    }
+    .book-cover {
+        max-width: 150px; /* Even smaller book cover on mobile */
+    }
+    .blog-sample-title {
+        font-size: 1.1rem;
+    }
+}
+/* Footer Icons */
+footer .bi {
+    font-size: 1.5rem;
+}
+footer a:hover {
+    color: #adb5bd !important; /* Lighter gray on hover */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991.98px) { /* Medium devices and down */
+    .section-subtitle {
+        font-size: 1.8rem;
+    }
+  
+    .case-title {
+        font-size: 1.5rem;
+    }
+    .case-number {
+        font-size: 2rem;
+    }
+    .testimonial-text {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 767.98px) { /* Small devices and down */
+    .section-subtitle {
+        font-size: 1.6rem;
+    }
+    .case-title {
+        font-size: 1.4rem;
+    }
+    .case-number {
+        font-size: 1.8rem;
+    }
+    .testimonial-card .quote-icon {
+        font-size: 2.5rem;
+        top: -10px;
+    }
+    .testimonial-text {
+        font-size: 0.9rem;
+    }
+}
+
+/* --- Footer --- */
+footer a i {
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+}
+
+footer a:hover i {
+    color: var(--skt-blue);
+}
+
+.navbar-toggler {
+    border-color: #000 !important;
+}
+.navbar-toggler .navbar-toggler-icon,
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+</style>
+</html>
+
+
+
+

@@ -78,7 +78,7 @@
            
             <div class="row align-items-center mt-5">
                 <div class="col-lg-8">
-                    <h2 class="fw-bold">Meet Samer K. Taher</h2>
+                    <h2 class="fw-bold">Meet Samer <span style="color: #00529b">K. Taher</span></h2>
                     <p class="lead text-muted">Founder | Executive Advisor | Straight-Talking Coach</p>
                     <p>I've spent more than four decades in corporate life—working with top organizations, leading complex organizational transformations, and building cultures that deliver. My work has taken me from the U.S. to the U.K., with senior roles in Dubai, Riyadh, and beyond. The common thread has always been my knack for telling it like it is—getting to the truth, bringing clarity, and helping people get unstuck.</p>
                 </div>
@@ -120,12 +120,12 @@
         </section>
         <section class="container my-5 py-md-5">
             <div class="row">
-                <div class="col-lg-10 offset-lg-1 text-left">
+                <div class="col-lg-10  text-left">
                     
-                     <blockquote class="philosophy-quote">
+                     <blockquote class="philosophy-quote text-left">
                         <p class="mb-0">"Bold.Clear.Straightforward."</p>
                     </blockquote>
-                    <p class="lead mt-3 text-muted">That's not just a tagline—it's how I live, lead, and work. I believe leaders need less fluff and more candor, less jargon and more tangible action, and less noise. And teams need less politics and more truth (with empathy).</p>
+                    <p class="lead mt-3 text-muted text-left">That's not just a tagline—it's how I live, lead, and work. I believe leaders need less fluff and more candor, less jargon and more tangible action, and less noise. And teams need less politics and more truth (with empathy).</p>
                 </div>
             </div>
         </section>
@@ -177,13 +177,13 @@
 
 .custom-list li::before {
     content: "\2022"; /* Unicode for a bullet point */
-    color: #0d6efd; /* Bootstrap primary blue */
+    color: #00529b; /* Bootstrap primary blue */
     font-weight: bold;
     display: inline-block;
     width: 1em; /* Space for the bullet */
     margin-left: -1.5em; /* Pull it back to the left */
     position: absolute;
-    left: 0;
+    left: 30px;
 }
 
 /* Adjust heading sizes for better responsiveness */
@@ -238,9 +238,9 @@
                         <img src="images/Vector.png" alt="Quote" class="mb-2" style="width: 50px;">
                     </div>
     
-    <p class="lead fst-italic my-4">"If you're looking for sugar-coated advice, you're in the wrong place. But if you're ready to face the elephant in the office—let's talk."</p>
+    <p class="lead fst-italic my-4 text-black">"If you're looking for sugar-coated advice, you're in the wrong place. But if you're ready to face the elephant in the office—let's talk."</p>
     <div class="d-flex justify-content-between align-items-center mt-3">
-      <h4 class="fw-bold mb-0">Samer K. Taher</h4>
+      <h4 class="fw-bold mb-0" style="color: #00529b;">Samer K.Taher</h4>
       <a href="#" class="btn btn-primary btn-lg">Contact now</a>
     </div>
   </div>
@@ -248,7 +248,7 @@
 
 <style>
   .transparent-gray-background {
-    background-color: rgba(128, 128, 128, 0.5); /* Gray with 50% opacity */
+    background-color: rgb(220 215 215 / 34%); /* Gray with 50% opacity */
     border-radius: 2.5rem; /* Optional: adds a slight rounded corner */
   }
 </style>
@@ -389,6 +389,82 @@
 	// ]]>
 </script>
 
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 <!-- Code injected by live-server -->
 <script>
 	// <![CDATA[  <-- For SVG support

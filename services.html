@@ -22,7 +22,7 @@
 <body>
 
 
-   <header class="bg-white py-3">
+  <header class="bg-white py-3">
         <div class="container d-flex justify-content-between align-items-center">
             <a href="#"><img src="images/logo.png" alt="SKT Consulting Logo" class="logo"></a>
             <nav class="d-none d-lg-block">
@@ -34,11 +34,12 @@
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="Blog.html">Blogs</a></li>
                                     <li><a class="dropdown-item" href="Resources.html">Resources</a></li>
-                                    <li><a class="dropdown-item" href="client.html">Clients</a></li>
+                                    <li><a class="dropdown-item" href="Clients and Impact.html">Clients</a></li> 
+                                    <li><a class="dropdown-item" href="work with me.html">Work With Me</a></li>
                                 </ul>
                             </div>
             </nav>
-            <a href="contact.html" class="btn btn-primary btn-contact d-none d-lg-block">Contact us</a>
+            <a href="contact.html" class="btn btn-primary btn-contact d-none d-lg-block" style="background-color: #00529B;">Contact us</a>
             <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -55,10 +56,11 @@
                                         <ul class="dropdown-menu">
                                             <li><a class="dropdown-item" href="Blog.html">Blogs</a></li>
                                             <li><a class="dropdown-item" href="Resources.html">Resources</a></li>
-                                            <li><a class="dropdown-item" href="client.html">Clients</a></li>
+                                            <li><a class="dropdown-item" href="Clients and Impact.html">Clients</a></li>
+                                            li><a class="dropdown-item" href="work with me.html">Work With Me</a></li>
                                         </ul>
                                     </div>
-                    <a href="contact.html" class="btn btn-primary w-100 mt-2">Contact us</a>
+                    <a href="contact.html" class="btn btn-primary w-100 mt-2" style="background-color: #00529B;">Contact us</a>
                 </nav>
             </div>
         </div>
@@ -184,7 +186,7 @@
           <div class="container">
               <h2 class="fw-bold">Ready for an honest conversation?</h2>
               <p>Let's talk about your challenges and how I can help.</p>
-              <a href="#" class="btn btn-light btn-lg">Contact now</a>
+              <a href="contact.html" class="btn btn-light btn-lg">Contact now</a>
           </div>
       </section>
 
@@ -438,6 +440,44 @@
 	}
 	// ]]>
 </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 </body>
 <style>
 
@@ -517,7 +557,7 @@ body {
 
 .custom-list-blue li {
     position: relative;
-    padding-left: 1.75rem; /* Space for the custom bullet */
+    /* padding-left: 1.75rem; */ /* Space for the custom bullet */
     margin-bottom: 0.75rem;
     font-size: 1.05rem; /* Slightly larger text for list items */
     color: #495057;

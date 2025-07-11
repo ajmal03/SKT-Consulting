@@ -78,7 +78,7 @@
            
             <div class="row align-items-center mt-5">
                 <div class="col-lg-8">
-                    <h2 class="fw-bold">Meet Samer <span style="color: #00529b">K. Taher</span></h2>
+                    <h2 class="fw-bold">Meet <span style="color: #00529b">Samer K. Taher</span></h2>
                     <p class="lead text-muted">Founder | Executive Advisor | Straight-Talking Coach</p>
                     <p>I've spent more than four decades in corporate life—working with top organizations, leading complex organizational transformations, and building cultures that deliver. My work has taken me from the U.S. to the U.K., with senior roles in Dubai, Riyadh, and beyond. The common thread has always been my knack for telling it like it is—getting to the truth, bringing clarity, and helping people get unstuck.</p>
                 </div>
@@ -92,23 +92,25 @@
             <div class="container">
                 <h2 class="text-left fw-bold mb-2 mt-2">Professional Journey</h2>
             </div>
+
+             
         </section>
         <section class="container my-5">
         <div class="row">
                     <div class="col-md-6 mb-4">
-                        <h5 class="fw-bold">PepsiCo (U.S. and Gulf)</h5>
+                        <h5 class="fw-bold">🎯 PepsiCo (U.S. and Gulf)</h5>
                         <p>Started my career in the early '80s in the U.S., then moved to the Gulf with a senior HR role. My international management journey was laid there.</p>
                     </div>
                     <div class="col-md-6 mb-4">
-                        <h5 class="fw-bold">Standard Chartered Bank (Dubai)</h5>
+                        <h5 class="fw-bold">🏦 Standard Chartered Bank (Dubai)</h5>
                         <p>Headed Training and Development for the Middle East and South Asia. Learned how to develop leaders at a truly global scale in a very diverse world.</p>
                     </div>
                     <div class="col-md-6 mb-4 mb-md-0">
-                        <h5 class="fw-bold">Meirc Training and Consulting (Dubai & Riyadh)</h5>
+                        <h5 class="fw-bold">🧠 Meirc Training and Consulting (Dubai & Riyadh)</h5>
                         <p>Joined in 2000 as a management consultant. Over two decades, I climbed the ladder, became Partner, and later Managing Partner. I've coached CEOs and senior teams, served on the Board, and led the build-operate-transfer expansion in Saudi Arabia.</p>
                     </div>
                      <div class="col-md-6">
-                        <h5 class="fw-bold">SKT Consulting (Scotland)</h5>
+                        <h5 class="fw-bold">🏴 SKT Consulting (Scotland)</h5>
                         <p>After more than a dozen relocations, I launched SKT Consulting to bring my experience to leaders and organizations who value honest feedback, bold thinking, and practical change.</p>
                     </div>
                 </div>    
@@ -123,7 +125,7 @@
                 <div class="col-lg-10  text-left">
                     
                      <blockquote class="philosophy-quote text-left">
-                        <p class="mb-0">"Bold.Clear.Straightforward."</p>
+                        <p class="mb-0">"<strong>Bold.</strong>Clear.Straightforward."</p>
                     </blockquote>
                     <p class="lead mt-3 text-muted text-left">That's not just a tagline—it's how I live, lead, and work. I believe leaders need less fluff and more candor, less jargon and more tangible action, and less noise. And teams need less politics and more truth (with empathy).</p>
                 </div>
@@ -241,14 +243,14 @@
     <p class="lead fst-italic my-4 text-black">"If you're looking for sugar-coated advice, you're in the wrong place. But if you're ready to face the elephant in the office—let's talk."</p>
     <div class="d-flex justify-content-between align-items-center mt-3">
       <h4 class="fw-bold mb-0" style="color: #00529b;">Samer K.Taher</h4>
-      <a href="#" class="btn btn-primary btn-lg">Contact now</a>
+      <a href="contact.html" class="btn btn-primary btn-lg">Contact now</a>
     </div>
   </div>
 </div>
 
 <style>
   .transparent-gray-background {
-    background-color: rgb(220 215 215 / 34%); /* Gray with 50% opacity */
+    background-color: rgb(255 255 255 / 47%); /* Gray with 50% opacity */
     border-radius: 2.5rem; /* Optional: adds a slight rounded corner */
   }
 </style>
@@ -389,6 +391,44 @@
 	// ]]>
 </script>
 
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
 <!-- Code injected by live-server -->
 <script>
 	// <![CDATA[  <-- For SVG support
